@@ -1,0 +1,489 @@
+{
+  "edition": "other-worlds",
+  "original_pict_dat_sha256": "600160f54d5401ad012bfc33b54ba5c219c49efa0a0a4f461e30ece975d27b0d",
+  "scenes": [
+    {
+      "id": 0,
+      "x": 18,
+      "y": 10,
+      "vga": "vga/pcors3a.vga",
+      "color": 9,
+      "text": [
+        {
+          "row": 20,
+          "column": 10,
+          "text": "You have landed safely"
+        },
+        {
+          "row": 21,
+          "column": 12,
+          "text": "at your airstrip."
+        }
+      ],
+      "frame": "result-00.bin",
+      "frame_sha256": "7fa912615989401ef240c581c56c3c4cb326b42a8e612e2552740e25485f8c30"
+    },
+    {
+      "id": 1,
+      "x": 0,
+      "y": 10,
+      "vga": "vga/rv4a.vga",
+      "color": 10,
+      "text": [
+        {
+          "row": 1,
+          "column": 24,
+          "text": "The rescue squad"
+        },
+        {
+          "row": 2,
+          "column": 24,
+          "text": "plucks you from"
+        },
+        {
+          "row": 3,
+          "column": 24,
+          "text": "the battlefield."
+        }
+      ],
+      "frame": "result-01.bin",
+      "frame_sha256": "2ddbe7a4528fff23e624cf0ad54204c14a5044042f93479359eef51a92f2bd3b"
+    },
+    {
+      "id": 2,
+      "x": 8,
+      "y": 10,
+      "vga": "vga/crsh2a.vga",
+      "color": 1,
+      "text": [
+        {
+          "row": 17,
+          "column": 5,
+          "text": "You have crashlanded your plane"
+        },
+        {
+          "row": 18,
+          "column": 5,
+          "text": "so far from home that it cannot"
+        },
+        {
+          "row": 19,
+          "column": 5,
+          "text": "be retrieved.  Your CO will not"
+        },
+        {
+          "row": 20,
+          "column": 15,
+          "text": "be pleased."
+        }
+      ],
+      "frame": "result-02.bin",
+      "frame_sha256": "233aaf6195d7f283a8cca566a394528cf61c91a3dbccc7e1a4f203786f535d71"
+    },
+    {
+      "id": 3,
+      "x": 8,
+      "y": 10,
+      "vga": "vga/crsh2a.vga",
+      "color": 1,
+      "text": [
+        {
+          "row": 17,
+          "column": 5,
+          "text": "You have crashlanded your plane"
+        },
+        {
+          "row": 18,
+          "column": 6,
+          "text": "close enough to base that it"
+        },
+        {
+          "row": 19,
+          "column": 6,
+          "text": "can be salvaged.  The ground"
+        },
+        {
+          "row": 20,
+          "column": 11,
+          "text": "crew is overjoyed."
+        }
+      ],
+      "frame": "result-03.bin",
+      "frame_sha256": "3d68ff02c4830bb37ec2ce6720ab6eab19ae2a43a083d481c8af22616b110ff9"
+    },
+    {
+      "id": 4,
+      "x": 60,
+      "y": 10,
+      "vga": "vga/expl4a.vga",
+      "color": 5,
+      "text": [
+        {
+          "row": 21,
+          "column": 5,
+          "text": "You plane slams into the turf"
+        },
+        {
+          "row": 22,
+          "column": 3,
+          "text": "and explodes violently upon impact."
+        },
+        {
+          "row": 23,
+          "column": 8,
+          "text": "You are killed instantly."
+        }
+      ],
+      "frame": "result-04.bin",
+      "frame_sha256": "241759cd5f3feadb82af5d1cbf0f20fbd853bf334018cf76f90261cf1ca16f51"
+    },
+    {
+      "id": 5,
+      "x": 75,
+      "y": 10,
+      "vga": "vga/flyby2.vga",
+      "color": 11,
+      "text": [
+        {
+          "row": 10,
+          "column": 3,
+          "text": "You return to base, but you do not"
+        },
+        {
+          "row": 11,
+          "column": 5,
+          "text": "land immediately.  After many"
+        },
+        {
+          "row": 12,
+          "column": 4,
+          "text": "flybys, the greeting crowd loses"
+        },
+        {
+          "row": 13,
+          "column": 6,
+          "text": "interest and dissipates.  You "
+        },
+        {
+          "row": 14,
+          "column": 2,
+          "text": "eventually bring your wobbling plane"
+        },
+        {
+          "row": 15,
+          "column": 8,
+          "text": "down for a poor landing."
+        }
+      ],
+      "frame": "result-05.bin",
+      "frame_sha256": "8d16e3e33aa17e22d496057812e57fee14701230d7491e9d8bff915648897b3f"
+    },
+    {
+      "id": 6,
+      "x": 0,
+      "y": 10,
+      "vga": "vga/prisbar4.vga",
+      "color": 15,
+      "text": [
+        {
+          "row": 1,
+          "column": 12,
+          "text": "Upon arrival at your HQ, MPs"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "text": "drag you into the brig.  The"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "text": "brass is outraged by your"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "text": "careless destruction of"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "text": "friendly forces.  You cool"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "text": "your heels in the stockade"
+        },
+        {
+          "row": 7,
+          "column": 12,
+          "text": "until further notice."
+        }
+      ],
+      "frame": "result-06.bin",
+      "frame_sha256": "24a79e76c292c5fd62c9851ab27b75817158aa70c0b02a0e16be278ec2e135aa"
+    },
+    {
+      "id": 7,
+      "x": 11,
+      "y": 0,
+      "vga": "vga/corps2b.vga",
+      "color": 11,
+      "text": [
+        {
+          "row": 18,
+          "column": 4,
+          "text": "You have been killed by a fatal"
+        },
+        {
+          "row": 19,
+          "column": 5,
+          "text": "fall after leaving your plane."
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "text": "A recon team finds your body and "
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "text": "reports back to headquarters."
+        }
+      ],
+      "frame": "result-07.bin",
+      "frame_sha256": "60a3ec583c97db82aad2be03520d1e0405098d158d4570a6ec87be29ffd769cd"
+    },
+    {
+      "id": 8,
+      "x": 0,
+      "y": 0,
+      "vga": "vga/toilet2a.vga",
+      "color": 15,
+      "text": [
+        {
+          "row": 19,
+          "column": 5,
+          "text": "You have been captured by enemy"
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "text": "forces, and then taken away to"
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "text": "the alien home world where you"
+        },
+        {
+          "row": 22,
+          "column": 3,
+          "text": "are forced to clean alien toilets"
+        },
+        {
+          "row": 23,
+          "column": 3,
+          "text": "for the rest of your dreary life."
+        }
+      ],
+      "frame": "result-08.bin",
+      "frame_sha256": "3149c1436e9bd5ef4474de4ddf997a015553fb6476e4e07a1b71593e09712b8c"
+    },
+    {
+      "id": 9,
+      "x": 30,
+      "y": 0,
+      "vga": "vga/drunk2.vga",
+      "color": 15,
+      "text": [
+        {
+          "row": 19,
+          "column": 2,
+          "text": "You did not return to base,  and were"
+        },
+        {
+          "row": 20,
+          "column": 4,
+          "text": "assumed killed or captured until"
+        },
+        {
+          "row": 21,
+          "column": 1,
+          "text": "MP's found you in a local tavern.  You"
+        },
+        {
+          "row": 22,
+          "column": 0,
+          "text": "seemed to have no idea where your plane"
+        },
+        {
+          "row": 23,
+          "column": 5,
+          "text": "was, or what happened to you."
+        }
+      ],
+      "frame": "result-09.bin",
+      "frame_sha256": "a182bce565980405905edbcee9160eae0e161c555669c5b8e53356cc0aa92542"
+    },
+    {
+      "id": 10,
+      "x": 11,
+      "y": 0,
+      "vga": "vga/corps2b.vga",
+      "color": 11,
+      "text": [
+        {
+          "row": 18,
+          "column": 2,
+          "text": "You have been killed by an AA shell"
+        },
+        {
+          "row": 19,
+          "column": 3,
+          "text": "fragment after leaving your plane."
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "text": "A recon team finds your body and "
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "text": "reports back to headquarters."
+        }
+      ],
+      "frame": "result-10.bin",
+      "frame_sha256": "8ff5e3d8331bbf046344375c2aec29d09170e291ef0cb88525f7b562153d6ada"
+    },
+    {
+      "id": 11,
+      "x": 11,
+      "y": 0,
+      "vga": "vga/corps2b.vga",
+      "color": 11,
+      "text": [
+        {
+          "row": 18,
+          "column": 4,
+          "text": "You have been killed by a nearby"
+        },
+        {
+          "row": 19,
+          "column": 1,
+          "text": "KLA explosion after leaving your plane."
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "text": "A recon team finds your body and "
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "text": "reports back to headquarters."
+        }
+      ],
+      "frame": "result-11.bin",
+      "frame_sha256": "4f90de3f409b8fad475ed923a82a2ea8cacf314906a4f997b8b0d28ad644f757"
+    },
+    {
+      "id": 12,
+      "x": 11,
+      "y": 0,
+      "vga": "vga/corps2b.vga",
+      "color": 11,
+      "text": [
+        {
+          "row": 18,
+          "column": 1,
+          "text": "You have been killed by blundering into"
+        },
+        {
+          "row": 19,
+          "column": 10,
+          "text": "a smouldering crater."
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "text": "A recon team finds your body and "
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "text": "reports back to headquarters."
+        }
+      ],
+      "frame": "result-12.bin",
+      "frame_sha256": "ffa16e48dd71da7e430ce9e995f22660e42bdc7c75af4f3fa004994eec8ededc"
+    },
+    {
+      "id": 13,
+      "x": 11,
+      "y": 0,
+      "vga": "vga/corps2b.vga",
+      "color": 11,
+      "text": [
+        {
+          "row": 18,
+          "column": 2,
+          "text": "You have been killed by contact with"
+        },
+        {
+          "row": 19,
+          "column": 5,
+          "text": "a barrage balloon or bee swarm."
+        },
+        {
+          "row": 20,
+          "column": 5,
+          "text": "A recon team finds your body and "
+        },
+        {
+          "row": 21,
+          "column": 5,
+          "text": "reports back to headquarters."
+        }
+      ],
+      "frame": "result-13.bin",
+      "frame_sha256": "b783d4b9f9e6667bb45643a576c92d0c04fd8bc091fc3f0537e9695274b9e0bd"
+    },
+    {
+      "id": 14,
+      "x": 40,
+      "y": 24,
+      "vga": "vga/searth1.vga",
+      "color": 10,
+      "text": [
+        {
+          "row": 1,
+          "column": 7,
+          "text": "You have gone into orbit!"
+        },
+        {
+          "row": 23,
+          "column": 5,
+          "text": "You are eventually saved by a"
+        },
+        {
+          "row": 24,
+          "column": 9,
+          "text": "daring rescue mission."
+        }
+      ],
+      "frame": "result-14.bin",
+      "frame_sha256": "fe2d36f0eda04d21a6712c0c8783906263f27df60f429a2c00ab4bc1d33d9235"
+    }
+  ],
+  "raster": {
+    "format": "64000 index bytes followed by768 RGB DAC bytes",
+    "width": 320,
+    "height": 200,
+    "palette_components": 6,
+    "caption_raster": "original BIOS INT10 AH13 executed by reference DOSBox",
+    "converted_by": null
+  }
+}

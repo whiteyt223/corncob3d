@@ -1,0 +1,143 @@
+{
+  "edition_id": 2,
+  "edition": "Corncob3 Other Worlds preserved distribution",
+  "root": "../freeware-recovery/other-worlds-ia-extracted/Corncob3/",
+  "catalog": "theaters.json",
+  "definitions": "assets/other-worlds-catalog.bin",
+  "briefings": "briefings-original.json",
+  "initialDS": "assets/other-worlds-canonical-initial-ds.bin",
+  "groundTables": "assets/other-worlds-ground-tables.bin",
+  "world_codec": "plain (no template XOR)",
+  "worlds": [
+    {
+      "stem": "exp",
+      "world": "DEF/EXP.DEF",
+      "tower": "DEF/EXP.TWR"
+    },
+    {
+      "stem": "morning",
+      "world": "DEF/MORNING.DEF",
+      "tower": "DEF/MORNING.TWR"
+    },
+    {
+      "stem": "thin",
+      "world": "DEF/THIN.DEF",
+      "tower": "DEF/THIN.TWR"
+    },
+    {
+      "stem": "dusk",
+      "world": "DEF/DUSK.DEF",
+      "tower": "DEF/DUSK.TWR"
+    },
+    {
+      "stem": "flatland",
+      "world": "DEF/FLATLAND.DEF",
+      "tower": "DEF/FLATLAND.TWR"
+    },
+    {
+      "stem": "iceworld",
+      "world": "DEF/ICEWORLD.DEF",
+      "tower": "DEF/ICEWORLD.TWR"
+    },
+    {
+      "stem": "midnight",
+      "world": "DEF/MIDNIGHT.DEF",
+      "tower": "DEF/MIDNIGHT.TWR"
+    },
+    {
+      "stem": "milkrun",
+      "world": "DEF/MILKRUN.DEF",
+      "tower": "DEF/MILKRUN.TWR"
+    },
+    {
+      "stem": "newatkin",
+      "world": "DEF/NEWATKIN.DEF",
+      "tower": "DEF/NEWATKIN.TWR"
+    },
+    {
+      "stem": "quari",
+      "world": "DEF/QUARI.DEF",
+      "tower": "DEF/QUARI.TWR"
+    },
+    {
+      "stem": "tundra",
+      "world": "DEF/TUNDRA.DEF",
+      "tower": "DEF/TUNDRA.TWR"
+    },
+    {
+      "stem": "wastelnd",
+      "world": "DEF/WASTELND.DEF",
+      "tower": "DEF/WASTELND.TWR"
+    },
+    {
+      "stem": "whtsands",
+      "world": "DEF/WHTSANDS.DEF",
+      "tower": "DEF/WHTSANDS.TWR"
+    },
+    {
+      "stem": "default",
+      "world": "DEF/DEFAULT.DEF",
+      "tower": "DEF/DEFTOWER.TWR",
+      "tower_alias": true
+    },
+    {
+      "stem": "demo1",
+      "world": "DEF/DEMO1.DEF",
+      "tower": "DEF/DEFTOWER.TWR",
+      "tower_alias": true
+    },
+    {
+      "stem": "mtuniv",
+      "world": "DEF/MTUNIV.DEF",
+      "tower": "DEF/MTUNIV.TWR"
+    }
+  ],
+  "default_tower": "DEF/DEFTOWER.TWR",
+  "missing_tower_behavior": {
+    "launcher": "Original MOAG11008..11052 opens selected stem; onfailure86A2(null) selects def/deftower.twr. Exact16nativecases in native-tower-fallback.json.",
+    "startup": "3.EXE receives resolved towers.dat; readsup to80bytes into kbuf then conditionally parsesX parameters.",
+    "briefing": "Selected DEFAULT/DEMO1 aliases use original DEFTOWER content."
+  },
+  "verified_shared": {
+    "cockpit": "All IMG/3D.IMG source bytes identical to shareware; source cockpit globals match in canonical cold DS.",
+    "help_images": [
+      "IMG/3D2.IMG",
+      "IMG/3D6.IMG",
+      "IMG/3D13.IMG",
+      "IMG/3D9.IMG",
+      "IMG/3D8.IMG",
+      "IMG/3D7.IMG",
+      "IMG/3D4.IMG",
+      "IMG/3D3.IMG",
+      "IMG/3D5.IMG",
+      "IMG/3D10.IMG"
+    ],
+    "medals": "MEDAL.FNC",
+    "modePalette": "launch-inputs/mode10-palette.bin (same BIOS video-mode10 input)"
+  },
+  "distinct": {
+    "title": "CCTITLE.EXE; VGA/GRADSKY.PAL, HC6.PAL, SKY.PAL; VGA/TNAMBC.VGA and other images differ.",
+    "result": "PICT.DAT and original VGA result images differ from decoded SW JPEG output; use OW originals after native compositing proof.",
+    "information": "MOAG.INF"
+  },
+  "pilot": {
+    "file": "assets/other-worlds-empty-pilot.scr",
+    "trainee": "assets/other-worlds-original-trainee.bin",
+    "provenance": "pilot-defaults.json",
+    "initialization": "Original MOAG initialized globals plus externally supplied seed1/time0, original codec writes zero named pilots; actual native decoder constructs lowercase trainee.",
+    "preserved_history": "Recovered PILOT.SCR and MOAG.CFG previous pilots are excluded."
+  },
+  "proof": {
+    "launch": "native-other-worlds-launch.json",
+    "io": "native-plain-io.json",
+    "catalog": "native-catalog-analysis.json",
+    "score": "native-final-score.json",
+    "geometry": "geometry-relocation.json",
+    "career": "native-career-states.json",
+    "codec": "native-other-worlds-codec.json",
+    "progression": "native-progression.json",
+    "options": "native-options.json"
+  },
+  "copyright": "assets/original-notices retains original notices intact; root recovery provenance also required",
+  "pilotLabels": "pilot-menu-labels.json"
+}

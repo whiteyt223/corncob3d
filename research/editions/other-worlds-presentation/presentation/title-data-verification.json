@@ -1,0 +1,79 @@
+{
+  "data_bytes": 265831,
+  "near_graph_end": "0x7664",
+  "retained_far_rows": 2067,
+  "rows": [
+    {
+      "table": 8142,
+      "original_table": 8122,
+      "rows": 200,
+      "width": 320
+    },
+    {
+      "table": 8942,
+      "original_table": 8922,
+      "rows": 144,
+      "width": 288
+    },
+    {
+      "table": 9518,
+      "original_table": 9498,
+      "rows": 120,
+      "width": 240
+    },
+    {
+      "table": 7342,
+      "original_table": 7322,
+      "rows": 176,
+      "width": 320
+    }
+  ],
+  "sprites": [
+    {
+      "table": 4236,
+      "original_table": 4216,
+      "rows": 121
+    },
+    {
+      "table": 3744,
+      "original_table": 3724,
+      "rows": 11
+    },
+    {
+      "table": 18312,
+      "original_table": 2296,
+      "rows": 21
+    },
+    {
+      "table": 19068,
+      "original_table": 2136,
+      "rows": 26
+    },
+    {
+      "table": 20180,
+      "original_table": 1936,
+      "rows": 37
+    },
+    {
+      "table": 21996,
+      "original_table": 2908,
+      "rows": 35
+    },
+    {
+      "table": 24032,
+      "original_table": 2764,
+      "rows": 35
+    },
+    {
+      "table": 26044,
+      "original_table": 2620,
+      "rows": 35
+    },
+    {
+      "table": 28296,
+      "original_table": 2456,
+      "rows": 35
+    }
+  ],
+  "source": "original OW initialization, artwork and BIOS credit font; typed graph normalization only"
+}

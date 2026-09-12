@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';
+import {writeFile} from 'node:fs/promises';
+import {loadGameFixture} from './load_game_fixture.mjs';
+import {createFlight} from '../web/startup.mjs';
+const {e,assets,game}=await loadGameFixture();
+await game.career.create('Flow Pilot');await game.open(0);await game.open(0);
+assert.equal(game.career.openTheaters().length,2);assert.notEqual(...game.career.openTheaters().map(t=>t.id));
+assert.equal(game.career.current()[0x23d],1);await game.career.selectTraining();assert.equal(game.career.current()[0x23d],129);assert.equal(game.career.current()[0x23b]&1,1);
+await game.validateRecords(await game.storage.records());
+game.session=createFlight(e,assets,game.career,{seed:0x123456});
+assert.equal(game.session.ds.getUint8(0xae6),255);assert.equal(game.session.ds.getUint8(0xaf1),0);
+for(let i=0;i<30;i++){const s=game.session,code=s.step({events:s.radio?[{scan:78,fraction:1}]:[{scan:206,fraction:1}]});assert.equal(code,0,s.failure);if(s.uiRequest)s.leaveMenu();}
+await game.career.selectTheater(1);assert.equal(game.career.current()[0x23b]&1,0);assert.equal(game.airfields().rows[4].planes,2);
+game.session=createFlight(e,assets,game.career,{seed:0x123456});const s=game.session;
+const step=events=>{const code=s.step({events});assert.equal(code,0,s.failure);if(s.uiRequest)s.leaveMenu();};
+for(let i=0;i<20;i++)step(s.radio?[{scan:78,fraction:1}]:[{scan:206,fraction:1}]);
+step([{scan:25,fraction:0},{scan:153,fraction:1}]);assert.ok(s.paused);const pausedFrame=s.frame,world=new Uint8Array(e.memory.buffer,e.cc_universe_memory(),0x45f90).slice();
+for(let i=0;i<4;i++)step([]);assert.equal(s.frame,pausedFrame);assert.deepEqual(new Uint8Array(e.memory.buffer,e.cc_universe_memory(),0x45f90),world);
+step([{scan:57,fraction:0},{scan:185,fraction:1}]);assert.ok(s.paused);step([{scan:25,fraction:0},{scan:153,fraction:1}]);assert.equal(s.paused,false);
+step([{scan:50,fraction:0},{scan:178,fraction:1}]);
+for(let i=0;i<40&&!s.map;i++)step(s.radio?[{scan:78,fraction:1}]:[{scan:206,fraction:1}]);
+assert.ok(s.map,'M opens map through original radio wait');const mapFrame=s.frame,mapWorld=new Uint8Array(e.memory.buffer,e.cc_universe_memory(),0x45f90).slice();for(let i=0;i<3;i++)step([]);assert.equal(s.frame,mapFrame);assert.deepEqual(new Uint8Array(e.memory.buffer,e.cc_universe_memory(),0x45f90),mapWorld);
+step([{scan:73,fraction:0}]);step([{scan:201,fraction:0},{scan:28,fraction:0},{scan:156,fraction:1}]);assert.equal(s.map,false);assert.equal(s.runtime[1],0);
+const raw=new Uint8Array(e.memory.buffer,e.cc_flight_state()+0x1e4,140).slice(),before=game.career.current().slice();let report=await game.career.finish(raw,new Uint8Array(),{engineError:97});assert.ok(report.needsErrorChoice);report=await game.career.finish(raw,new Uint8Array(),{engineError:97,errorChoice:2});assert.equal(report.accepted,false);assert.equal(new DataView(game.career.current().buffer).getUint16(24,true),new DataView(before.buffer).getUint16(24,true));
+const reportOut={sameTheaterIndependentCampaigns:2,trainingRetainsSelectedTheater:true,combatAndTrainingPreferencesApplied:true,pauseFreezesWorld:true,originalHelpImageLoaded:true,mapFreezesWorldAndExits:true,errorDeclineReturns:true,scope:'Node integration of real source controls and browser record adapters; isolated module oracles establish source behavior.',mismatches:0};await writeFile(new URL('../docs/session-flow-verification.json',import.meta.url),JSON.stringify(reportOut,null,2)+'\n');console.log(reportOut);

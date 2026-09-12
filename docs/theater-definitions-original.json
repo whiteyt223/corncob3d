@@ -1,0 +1,58 @@
+{
+  "source": "/workspace/sites/corncob-source-port/runtime/disk-state-insult-002/MOAG.CFG",
+  "source_sha256": "26e5d0cf58e96dcc53d21e8d23d5c9339c245707c1badd4d1d8ddc8129a36521",
+  "records": [
+    {
+      "index": 0,
+      "name": "Atkinsville (easy)",
+      "file_stem": "morning",
+      "raw_header_hex": "41746b696e7376696c6c6520286561737929000000000000000000006d6f726e696e6700000007000400000001000000",
+      "planes_remaining": 7,
+      "objectives_remaining": 4,
+      "objectives_destroyed": 0,
+      "completion_eligible": 1,
+      "completion_awarded": 0,
+      "original_cct_sha256": "83cecb036934128c53a1df75930c6a112b393da5c089847180741c0e60726a0e",
+      "native_capture_cfg_offset": 1314
+    },
+    {
+      "index": 1,
+      "name": "Dusk (medium)",
+      "file_stem": "dusk",
+      "raw_header_hex": "4475736b20286d656469756d290000000000000000000000000000006475736b00000000000006000400020001000000",
+      "planes_remaining": 6,
+      "objectives_remaining": 4,
+      "objectives_destroyed": 2,
+      "completion_eligible": 1,
+      "completion_awarded": 0,
+      "original_cct_sha256": "1d33d329f60b9f0742f87f6e15828aa4d6f1820b74ab3dc21ab8afccbdb34983",
+      "native_capture_cfg_offset": 1362
+    },
+    {
+      "index": 2,
+      "name": "Wasteland (medium)",
+      "file_stem": "wastelnd",
+      "raw_header_hex": "57617374656c616e6420286d656469756d290000000000000000000077617374656c6e64000006000400010001000000",
+      "planes_remaining": 6,
+      "objectives_remaining": 4,
+      "objectives_destroyed": 1,
+      "completion_eligible": 1,
+      "completion_awarded": 0,
+      "original_cct_sha256": "e27219613ae9a7470798081b9d29502834318877b2e377ee95770e19d51e7588",
+      "native_capture_cfg_offset": 1410
+    },
+    {
+      "index": 3,
+      "name": "White Sands Testing Ground",
+      "file_stem": "whtsands",
+      "raw_header_hex": "57686974652053616e64732054657374696e672047726f756e64000077687473616e6473000000000600000000000000",
+      "planes_remaining": 0,
+      "objectives_remaining": 6,
+      "objectives_destroyed": 0,
+      "completion_eligible": 0,
+      "completion_awarded": 0,
+      "original_cct_sha256": "a301174d37fc001f335d8030045ee3899f4266a3a46f96f87b0349683d2c7ea7",
+      "native_capture_cfg_offset": 1458
+    }
+  ]
+}

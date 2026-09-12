@@ -1,0 +1,325 @@
+{
+  "edition": "other-worlds",
+  "profile": 2,
+  "original_exe_sha256": "3f5d815aa18b4b06ae8e4ddfb66a8f78f30c18c282e066a16389e29ce23ccc0e",
+  "original_main": "02f0:09f3; image38f3",
+  "ds_relative_segment": "0717",
+  "cards_source": "TPICT.DAT",
+  "cards_source_present": false,
+  "cards": [],
+  "credits": [
+    {
+      "ds_offset": "0x1e4",
+      "text": "\n"
+    },
+    {
+      "ds_offset": "0x1e6",
+      "text": "     An MVP Software Production\n"
+    },
+    {
+      "ds_offset": "0x207",
+      "text": "\n"
+    },
+    {
+      "ds_offset": "0x209",
+      "text": " Design and Programming : Kevin Stokes\n"
+    },
+    {
+      "ds_offset": "0x231",
+      "text": " Additional Programming : George Welch\n"
+    },
+    {
+      "ds_offset": "0x259",
+      "text": "\n"
+    },
+    {
+      "ds_offset": "0x25b",
+      "text": " Music By :            James Collymore\n"
+    },
+    {
+      "ds_offset": "0x283",
+      "text": " \n"
+    },
+    {
+      "ds_offset": "0x286",
+      "text": " \n"
+    },
+    {
+      "ds_offset": "0x289",
+      "text": " Play testing  :\n"
+    },
+    {
+      "ds_offset": "0x29b",
+      "text": " \n"
+    },
+    {
+      "ds_offset": "0x29e",
+      "text": " Lawrence Gilberti        Carl Schnurr\n"
+    },
+    {
+      "ds_offset": "0x2c6",
+      "text": " Jeff Gardner          Darell Phillips\n"
+    },
+    {
+      "ds_offset": "0x2ee",
+      "text": " Sean Gallaty              Thomas Pope\n"
+    },
+    {
+      "ds_offset": "0x316",
+      "text": "\n"
+    }
+  ],
+  "assets": [
+    {
+      "original_name": "VGA/COLOGO.VGA",
+      "shipped_file": "VGA/COLOGO.VGA",
+      "sha256": "5b5ee42f12af448cf60037abd78dba05a2329fd09140fca4a7840dc668459292"
+    },
+    {
+      "original_name": "VGA/CORPS2B.VGA",
+      "shipped_file": "VGA/CORPS2B.VGA",
+      "sha256": "1b093456949d286c73aed57cb20f1d1fcca95bca75831be2784906947ff95cae"
+    },
+    {
+      "original_name": "VGA/CRSH2A.VGA",
+      "shipped_file": "VGA/CRSH2A.VGA",
+      "sha256": "f1b5f60a72ab0da6cc209240a3b1100b31e12f228d649774672ba2bdf26766a6"
+    },
+    {
+      "original_name": "VGA/DRUNK2.VGA",
+      "shipped_file": "VGA/DRUNK2.VGA",
+      "sha256": "ac83103dd5e583ca1e09bcea6beb3120e86ff04b345560257e42c61102e0723f"
+    },
+    {
+      "original_name": "VGA/EXPL4A.VGA",
+      "shipped_file": "VGA/EXPL4A.VGA",
+      "sha256": "317cb0e3b8eb9382b66b110bfcd87c2a378b1d46857ea631f74b911e2fd9690e"
+    },
+    {
+      "original_name": "VGA/FLASH.VGA",
+      "shipped_file": "VGA/FLASH.VGA",
+      "sha256": "7df39e7124522f502303a7c73210194c0fd4e5e013e7dca0a6e89e2602bbfacf"
+    },
+    {
+      "original_name": "VGA/FLYBY2.VGA",
+      "shipped_file": "VGA/FLYBY2.VGA",
+      "sha256": "34da6e4a73deee8b2beab324e29e6dfbd5f5699b77cd3f190f7ac2dd55d25a47"
+    },
+    {
+      "original_name": "VGA/GRADSKY.PAL",
+      "shipped_file": "VGA/GRADSKY.PAL",
+      "sha256": "1b18e40757738f49d79cef5bcb8c82d08d15f3ea63c6605bda61264f634159ac"
+    },
+    {
+      "original_name": "VGA/HC6.PAL",
+      "shipped_file": "VGA/HC6.PAL",
+      "sha256": "ab0f9cd8f9659680d1f9c598e08ef91b55d2d17b048a2b731624c126b42bff79"
+    },
+    {
+      "original_name": "VGA/HC6NEW.VGA",
+      "shipped_file": "VGA/HC6NEW.VGA",
+      "sha256": "3dcdd6f001c0e4a7a3dfd1b1f2a6b93324807154c9debafab3157d123f6b4336"
+    },
+    {
+      "original_name": "VGA/PCORS3A.VGA",
+      "shipped_file": "VGA/PCORS3A.VGA",
+      "sha256": "316acc4c30665941ce0bfc380bae60a43c8f62b143c038d1e0dc2dad4233a3d8"
+    },
+    {
+      "original_name": "VGA/PRISBAR4.VGA",
+      "shipped_file": "VGA/PRISBAR4.VGA",
+      "sha256": "8276792d9e0c562a00186c7de457ca18e4e487c81ef2820a62d1affd1d9b7c37"
+    },
+    {
+      "original_name": "VGA/RV4A.VGA",
+      "shipped_file": "VGA/RV4A.VGA",
+      "sha256": "a1cf500a59760fc1ef7e0157f3eb15146a2173a51c8b1891f230fd80110aefe7"
+    },
+    {
+      "original_name": "VGA/SEARTH1.VGA",
+      "shipped_file": "VGA/SEARTH1.VGA",
+      "sha256": "a2a3e45d5616669e0d470581e544e44d31ea388364c6241dd162806b47d75f3e"
+    },
+    {
+      "original_name": "VGA/SKLA1.VGA",
+      "shipped_file": "VGA/SKLA1.VGA",
+      "sha256": "724db1b9ff42b6912c0f52219e6506804be47ec8b7980d9505ede8fe96f2c59d"
+    },
+    {
+      "original_name": "VGA/SKLA2.VGA",
+      "shipped_file": "VGA/SKLA2.VGA",
+      "sha256": "33b29f905a4dbaa50f32e970c19827a2193d016b41316dc6737d83372e446754"
+    },
+    {
+      "original_name": "VGA/SKLA3.VGA",
+      "shipped_file": "VGA/SKLA3.VGA",
+      "sha256": "a061ab23f63abc96c36b47d9e5dc82012dffcc3edb9a7a7da59feb43d6024ee7"
+    },
+    {
+      "original_name": "VGA/SKLA4.VGA",
+      "shipped_file": "VGA/SKLA4.VGA",
+      "sha256": "cd7fd3cc962ae2d52a2f47cd546c3dd6434e49b3d1196a648a3d51006adf5e6b"
+    },
+    {
+      "original_name": "VGA/SKY.PAL",
+      "shipped_file": "VGA/SKY.PAL",
+      "sha256": "c24b55fcd9a04ca9ef148bb722964825890d682a4c1e04b4e3c5b3619df3abe7"
+    },
+    {
+      "original_name": "VGA/SSFLAK1.VGA",
+      "shipped_file": "VGA/SSFLAK1.VGA",
+      "sha256": "fb20c6ab3902d20940909cb17853c8aa619991bfe2cf35c887286a5beb3147fd"
+    },
+    {
+      "original_name": "VGA/SSFLAK2.VGA",
+      "shipped_file": "VGA/SSFLAK2.VGA",
+      "sha256": "8f2728e6bca34103ac7ed5dd5adec3977fa55f11e87d41692f952ba711586ed8"
+    },
+    {
+      "original_name": "VGA/SSFLAK3.VGA",
+      "shipped_file": "VGA/SSFLAK3.VGA",
+      "sha256": "6440382b9f262a3496c5b31a3836a78d8cad06ef8b618a2250d8e933272c1dde"
+    },
+    {
+      "original_name": "VGA/S_DRUNK1.VGA",
+      "shipped_file": "VGA/S_DRUNK1.VGA",
+      "sha256": "8e04aa6c80ac304cb580fe9fd6e5ad1481317395572cd26fcc729b7c758eaa9c"
+    },
+    {
+      "original_name": "VGA/TCLOUD5S.VGA",
+      "shipped_file": "VGA/TCLOUD5S.VGA",
+      "sha256": "346c45b0d757ab1ee11463c4d71eb958accc5918da9cad0a3aa314fde17337f1"
+    },
+    {
+      "original_name": "VGA/TNAMBC.VGA",
+      "shipped_file": "VGA/TNAMBC.VGA",
+      "sha256": "74e96537990e16da2bf119a49820aad7c3909d171aef684d19eb1fce3095893b"
+    },
+    {
+      "original_name": "VGA/TOILET2A.VGA",
+      "shipped_file": "VGA/TOILET2A.VGA",
+      "sha256": "5dca1db83bea13db4343f8089dc19554963cfa8a361a903ac9f217822b5d0d68"
+    }
+  ],
+  "missing_story_behavior": "Original image4397 fopen(TPICT.DAT), image43A9 zero result jumps4631 and continues credits/animation.",
+  "data": {
+    "file": "title-data.bin",
+    "bytes": 265831,
+    "sha256": "219145a0ddcc607844df9dd762fa44696ecefdd0773d44843aaff32fed02c577",
+    "format": "65536 canonical title DS bytes then original row payloads",
+    "rows": [
+      {
+        "table": 8142,
+        "original_table": 8122,
+        "rows": 200,
+        "width": 320
+      },
+      {
+        "table": 8942,
+        "original_table": 8922,
+        "rows": 144,
+        "width": 288
+      },
+      {
+        "table": 9518,
+        "original_table": 9498,
+        "rows": 120,
+        "width": 240
+      },
+      {
+        "table": 7342,
+        "original_table": 7322,
+        "rows": 176,
+        "width": 320
+      }
+    ],
+    "sprites": [
+      {
+        "table": 4236,
+        "original_table": 4216,
+        "rows": 121
+      },
+      {
+        "table": 3744,
+        "original_table": 3724,
+        "rows": 11
+      },
+      {
+        "table": 18312,
+        "original_table": 2296,
+        "rows": 21
+      },
+      {
+        "table": 19068,
+        "original_table": 2136,
+        "rows": 26
+      },
+      {
+        "table": 20180,
+        "original_table": 1936,
+        "rows": 37
+      },
+      {
+        "table": 21996,
+        "original_table": 2908,
+        "rows": 35
+      },
+      {
+        "table": 24032,
+        "original_table": 2764,
+        "rows": 35
+      },
+      {
+        "table": 26044,
+        "original_table": 2620,
+        "rows": 35
+      },
+      {
+        "table": 28296,
+        "original_table": 2456,
+        "rows": 35
+      }
+    ]
+  },
+  "animation_controls": {
+    "escape": "exit",
+    "minus": "speed decreases",
+    "plus": "speed increases",
+    "q_or_Q": "toggle sound",
+    "lowercase_l": "toggle credits",
+    "default_speed_word": 4,
+    "default_first_aircraft_flag": 1
+  },
+  "limitations": "Original TPICT.DAT is absent, so story cards are omitted. Original title music is VOYAGE3.ROL with BNK835.BNK; MOAG menus use HEAVENS.ROL then DAYBREAK.ROL from ROLFILES.TXT. Music remains user-import-only under the project distribution decision. Loop pacing is supplied by the host as the source has no timer.",
+  "music": {
+    "title": "VOYAGE3.ROL",
+    "bank": "BNK835.BNK",
+    "menu_playlist": [
+      "HEAVENS.ROL",
+      "DAYBREAK.ROL"
+    ],
+    "source_files": {
+      "VOYAGE3.ROL": {
+        "bytes": 9563,
+        "sha256": "800907e4e08dfc37f9cb07ff2d4c697e8079050ca7f01e0a417c837b4c790ea4"
+      },
+      "BNK835.BNK": {
+        "bytes": 36316,
+        "sha256": "992bcf125b42bde154ed6f010ecd7e6919669755e4363227db714ecb09d64a18"
+      },
+      "HEAVENS.ROL": {
+        "bytes": 25849,
+        "sha256": "74a078c7d1310ca39c7bf70c38ce2a05b26e7af0915d1dfb8f210e0e4aa3a5e2"
+      },
+      "DAYBREAK.ROL": {
+        "bytes": 8049,
+        "sha256": "dc79cde4d76a1f9d56aaebf809c9a6620fc086eb17380a6c49a146e70d9e1497"
+      },
+      "ROLFILES.TXT": {
+        "bytes": 467,
+        "sha256": "ef8cd785d91a1638f72beb4d0333cd799d181d76b32218983b721e3921f955a2"
+      }
+    },
+    "bundled": false
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "corncob3d-browser-port",
+  "private": true,
+  "scripts": {
+    "dev": "node tools/serve_web.mjs",
+    "test": "node tools/check_bundle.mjs && node tools/security/import_boundaries.mjs && node tools/security/save_mutations.mjs && node tools/verify_game_flow.mjs && node tools/verify_session_flows.mjs"
+  }
+}

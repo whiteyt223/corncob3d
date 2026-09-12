@@ -1,0 +1,928 @@
+{
+  "encoding": "CP437 decoded to Unicode; original ASCII text/markup retained",
+  "selection": "TOWER scans first22 visible lines for first case-sensitive Sxyth marker; Enter accepts; Escape removes startloc.dat.",
+  "theaters": [
+    {
+      "filename": "DEFTOWER.TWR",
+      "sha256": "733112549da0e5a4bb5b153784b42d77167a1d97f16aab34d3d4b4e8f31f9e80",
+      "sections": [
+        {
+          "section": 0,
+          "tower_index": null,
+          "lines": [
+            "Default",
+            "Empty",
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 1,
+          "tower_index": 0,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 2,
+          "tower_index": 1,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 3,
+          "tower_index": 2,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 4,
+          "tower_index": 3,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 5,
+          "tower_index": 4,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 6,
+          "tower_index": 5,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 7,
+          "tower_index": 6,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 8,
+          "tower_index": 7,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 9,
+          "tower_index": 8,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 10,
+          "tower_index": 9,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        }
+      ]
+    },
+    {
+      "filename": "DUSK.TWR",
+      "sha256": "501c6ac6d57089768217b7cdb81ba26faeb416647d31f1374bd8d3a5eaa69d84",
+      "sections": [
+        {
+          "section": 0,
+          "tower_index": null,
+          "lines": [
+            "X -15000 200 12 -48 6000 1 6000",
+            "Dusk (medium)",
+            "  A relatively tough ",
+            "theater with missions",
+            "requiring precise flying",
+            "ability.",
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 1,
+          "tower_index": 0,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 2,
+          "tower_index": 1,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 3,
+          "tower_index": 2,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 4,
+          "tower_index": 3,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 5,
+          "tower_index": 4,
+          "lines": [
+            "------------------------------------------------------------------------",
+            "----------------- Welcome to RDU ^international Airport ----------------",
+            "------------------------------------------------------------------------",
+            "",
+            " Mission Code Name : Thread of death",
+            " Direction         : North",
+            " Distance          : 12 miles  ",
+            " Difficulty        : 6",
+            "",
+            "Sxyth 1032986 175418 289252 -4096",
+            "------------------------------------------------------------------------",
+            "  To the north the aliens have a spread out fuel storage facility which",
+            "appears to have no active defenses.  Recon teams have reported no active",
+            "KLA sites or AA.  The site has a rather strange layout.  The fuel tanks",
+            "are arranged in twisting line like beads of oil on a string.  Our ",
+            "analysts think the quickest way to blow all the dumps to to fly slowly",
+            "along the path, taking out each fuel tank as you fly over it.",
+            "  The recon team referred to some strange blinking spheres;  If these",
+            "are what we think they are, get your mission done as quickly as possible,",
+            "or else those crazy ground vehicles will be making your life difficult!",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            " Mission Code Name : Field Day",
+            " Direction         : East",
+            " Distance          : 12 miles  ",
+            " Difficulty        : 4",
+            "",
+            "Sxyth -926505 -2276129 83939 -2800",
+            "------------------------------------------------------------------------",
+            "  A distribution point for alien recon ground vehicles has been causing",
+            "us too much grief to tolerate.  Get out there and take out all the ",
+            "sites and vehicles you can find.",
+            "  There is one suspended AA installation which should be a piece of cake.",
+            "This should be your first target, since we think it is a top notch gun.",
+            "  Be careful out there, though.  Intelligence  has reported a ",
+            "significant concentration of KLA activity stemming from the epicenter",
+            "of the vehicle sites.  Our advice is to come in fast blasting away at",
+            "those KLA sites to eliminate them before trying to attain the objective.",
+            "Don't hesitate to make use of your bombs.  If things get too hot,",
+            "burn the emergency booster rocket and get home fast for a quick repair.",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "",
+            " Mission Code Name : Overnight Express",
+            " Direction         : South South West",
+            " Distance          : 8 miles  ",
+            " Difficulty        : 3",
+            "",
+            "Sxyth -1639306 143765 176706 30000",
+            "------------------------------------------------------------------------",
+            "  One of our top spies has just finished a sabatoge mission at a ",
+            "strange installation which is suspended at 10,000 feet.  Before blowing",
+            "up the alien orb, he has found some enemy intelligence which is critical",
+            "to our operations in this area.  ",
+            "  Your mission is to land at the suspended airstrip, get out of your",
+            "plane, and meet with him on the alien platform.  He will give you the ",
+            "package, and signify all is well with the classic 'Thumbs up'.  When",
+            "you have that signal from him, consider your mission complete.  Get back",
+            "in your plane, and head home.",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "",
+            " Mission Code Name : Field of Flak",
+            " Direction         : West",
+            " Distance          : 20 miles  ",
+            " Difficulty        : 4",
+            "",
+            "Sxyth 552 2154738 90000 16000",
+            "------------------------------------------------------------------------",
+            "  The aliens have a strong active defense around an orb to the west of",
+            "here.  We've had the ground forces sweep the area clear of AA and KLA ",
+            "sites many times.  Each time, they manage to rebuild in a couple of days.",
+            "A brave recon team went in for a dangerously close look and discovered",
+            "a couple portals located near the center of the enemy area, suspended",
+            "at a height of only about 250 feet.  They have been transporting ",
+            "supplies in through these portals as fast as we can destroy them.",
+            "  Now the situation is worse.  The newest portal has its destination",
+            "set up to be directly over our airfield.  This portal must be ",
+            "neutralized immediately.  There are two portals.  One is red, one is",
+            "the color of the sky.  We want the sky colored one.",
+            "  Your weapons cannot destroy a portal, but we need you to fly through",
+            "it so that our technical boys can get a fix on the exit point above us.",
+            "  You may have some trouble getting through the portal.  AA and KLA ",
+            "activity is extremely heavy.  The good news is that only three of the",
+            "AA are of the lethal variety.   Find those dangerous AA, and take them",
+            "out before attempting to make the portal.",
+            "  Recon reports at least two leftover high-grade KLA's patroling, with",
+            "many sites for the dumber varieties on the ground.",
+            "  Remember that to get through the portal, you must keep your nose",
+            "pointed ABOVE it.  How much above depends on your airspeed.  It might",
+            "be a good idea to review your documentation.",
+            "------------------------------------------------------------------------",
+            ""
+          ],
+          "shortcuts": [
+            {
+              "name": "Thread of death",
+              "marker_line": 9,
+              "text": "Sxyth 1032986 175418 289252 -4096",
+              "start_xyz_yaw": [
+                1032986,
+                175418,
+                289252,
+                -4096
+              ]
+            },
+            {
+              "name": "Field Day",
+              "marker_line": 29,
+              "text": "Sxyth -926505 -2276129 83939 -2800",
+              "start_xyz_yaw": [
+                -926505,
+                -2276129,
+                83939,
+                -2800
+              ]
+            },
+            {
+              "name": "Overnight Express",
+              "marker_line": 52,
+              "text": "Sxyth -1639306 143765 176706 30000",
+              "start_xyz_yaw": [
+                -1639306,
+                143765,
+                176706,
+                30000
+              ]
+            },
+            {
+              "name": "Field of Flak",
+              "marker_line": 73,
+              "text": "Sxyth 552 2154738 90000 16000",
+              "start_xyz_yaw": [
+                552,
+                2154738,
+                90000,
+                16000
+              ]
+            }
+          ]
+        },
+        {
+          "section": 6,
+          "tower_index": 5,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 7,
+          "tower_index": 6,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 8,
+          "tower_index": 7,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 9,
+          "tower_index": 8,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 10,
+          "tower_index": 9,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        }
+      ]
+    },
+    {
+      "filename": "MORNING.TWR",
+      "sha256": "ff7ca7bc789ea3e7e602d631f3900b5c4bbdd6c9229ac13350b58344a78ea4e6",
+      "sections": [
+        {
+          "section": 0,
+          "tower_index": null,
+          "lines": [
+            "X 14000 150 14 -48 6000 0 6000",
+            "Atkinsville (easy)",
+            "  A nice easy theater for",
+            "starting out with.  The",
+            "sun has just risen in the",
+            "east.",
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 1,
+          "tower_index": 0,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 2,
+          "tower_index": 1,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 3,
+          "tower_index": 2,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 4,
+          "tower_index": 3,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 5,
+          "tower_index": 4,
+          "lines": [
+            "------------------------------------------------------------------------",
+            "----------------- Welcome to RDU ^international Airport ----------------",
+            "------------------------------------------------------------------------",
+            "",
+            " Mission Code Name : Insult to Injury",
+            " Direction         : North",
+            " Distance          : 8 miles  ",
+            " Difficulty        : 1",
+            "",
+            "Sxyth 353095 -138740 167038 0",
+            "------------------------------------------------------------------------",
+            "  Our attack aircraft have put a serious dent in the bug-eye's fuel",
+            "supply.  In an attempt to protect their storage facilities better, they",
+            "have been trying to enclose them in force fields.  Our recon teams have",
+            "reported that they are having serious problems with the force field",
+            "effect detonating the fuel tanks.  Get in the air right away and destroy",
+            "their generator orb while they are distracted with the force fields.",
+            "  If you fly low over the fuel dumps, you may get a glimpse of some of ",
+            "the alien work crews.  ",
+            "  There is reported one fuel installation that is in no danger from the",
+            "force fields.  You may want to take this one out after blowing the orb.",
+            "",
+            "( NOTE:  This mission is visible from your airstrip.  You may start from",
+            "the standard starting point by hitting <CR> or you can just take off",
+            "from this airstrip and fly there yourself. )",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "",
+            " Mission Code Name : Unlucky Ufo",
+            " Direction         : East North East",
+            " Distance          : 14 miles  ",
+            " Difficulty        : 3",
+            "",
+            "Sxyth 50000 -1690000 167038 -18000",
+            "------------------------------------------------------------------------",
+            "  An enemy saucer has just lifted off to the east of us.  Get out there",
+            "on the double and blow it out of the sky.   Heavy KLA activity has been",
+            "reported in that area, so keep an eye on your rear view at all times.",
+            "  As you may recall from your training, KLA's are fooled by pulling up",
+            "or down at the last minute, then pounding them with your cannons as",
+            "soon as they pass in front of you.  Also dropping a bomb when one is",
+            "right on your tail will trigger their detonation too early, thus ",
+            "allowing you to escape damage.",
+            " Those saucers can take a beating, so don't economize on missles and",
+            "ammo.  You can tell by the pitch of the whoosing sound how close they",
+            "are to being destroyed.  Some of the more advanced saucers will make",
+            "bombing runs on your airstrip, and spout KLA's for defense.",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "",
+            " Mission Code Name : Baka Bomb",
+            " Direction         : West",
+            " Distance          : 14 miles  ",
+            " Difficulty        : 3",
+            "",
+            "Sxyth -955298 1630000 149475 18000",
+            "------------------------------------------------------------------------",
+            "  To the west of here is an alien complex which is wreaking havoc on our",
+            "operations.  Unfortunately, the generator orb seems to be a type which",
+            "is indestructible with normal ordnance.  The only way to destroy this",
+            "fiendish devices is by ramming it with your plane.  ",
+            "  This is just as well, since there is some really tough resistance on",
+            "this mission, and you might well be walking back anyway.",
+            "  Get the plane on an imminent collision course with the orb, then eject",
+            "at the last moment.  Becareful to time it correctly, since the plane",
+            "can rebound from the explosion, and you may find yourself going down ",
+            "with the ship!",
+            "  The intelligence officers assure everybody that the fact that the",
+            "destruction of your aircraft will not count against you as a lost",
+            "plane.",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            " Mission Code Name : Heart of +",
+            " Direction         : South",
+            " Distance          : 18 miles  ",
+            " Difficulty        : 3",
+            "",
+            "Sxyth -3720577 -347998 282975 29000",
+            "------------------------------------------------------------------------",
+            "  An enemy intelligence complex has sprung up to the south of us.   Deep",
+            "in the center of a fortress lies your target.  By taking out this orb",
+            "you will deny command an control for a large portion of the enemies ",
+            "forces.",
+            "  Getting at this target will require some technique.  Possible methods",
+            "might be to dive bomb from the top, or coming in low and slow up the ",
+            "chute.  Beware of screaming up one of the corridors... if you are ",
+            "coming up on your target too fast, you may not have enough time to get",
+            "the necessary number of hits in.  Then you will find it difficult to ",
+            "pull around the still-intact orb without hitting the walls.",
+            "------------------------------------------------------------------------",
+            "",
+            ""
+          ],
+          "shortcuts": [
+            {
+              "name": "Insult to Injury",
+              "marker_line": 9,
+              "text": "Sxyth 353095 -138740 167038 0",
+              "start_xyz_yaw": [
+                353095,
+                -138740,
+                167038,
+                0
+              ]
+            },
+            {
+              "name": "Unlucky Ufo",
+              "marker_line": 35,
+              "text": "Sxyth 50000 -1690000 167038 -18000",
+              "start_xyz_yaw": [
+                50000,
+                -1690000,
+                167038,
+                -18000
+              ]
+            },
+            {
+              "name": "Baka Bomb",
+              "marker_line": 59,
+              "text": "Sxyth -955298 1630000 149475 18000",
+              "start_xyz_yaw": [
+                -955298,
+                1630000,
+                149475,
+                18000
+              ]
+            },
+            {
+              "name": "Heart of +",
+              "marker_line": 83,
+              "text": "Sxyth -3720577 -347998 282975 29000",
+              "start_xyz_yaw": [
+                -3720577,
+                -347998,
+                282975,
+                29000
+              ]
+            }
+          ]
+        },
+        {
+          "section": 6,
+          "tower_index": 5,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 7,
+          "tower_index": 6,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 8,
+          "tower_index": 7,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 9,
+          "tower_index": 8,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 10,
+          "tower_index": 9,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        }
+      ]
+    },
+    {
+      "filename": "WASTELND.TWR",
+      "sha256": "45d7876b54bbf76efa0fdadd2ba26640472eadf01f1e1336f78b2129e4b52235",
+      "sections": [
+        {
+          "section": 0,
+          "tower_index": null,
+          "lines": [
+            "Wasteland (medium)",
+            "  This theater has one",
+            "airstrip surrounded by",
+            "enemy forces.  The",
+            "setting is a reddish",
+            "wasteland that used",
+            "to be Virginia before",
+            "the aliens arrived.",
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 1,
+          "tower_index": 0,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 2,
+          "tower_index": 1,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 3,
+          "tower_index": 2,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 4,
+          "tower_index": 3,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 5,
+          "tower_index": 4,
+          "lines": [
+            "------------------------------------------------------------------------",
+            "----------------- Welcome to RDU ^international Airport ----------------",
+            "------------------------------------------------------------------------",
+            "",
+            "Mission:      Cuckoo's Nest",
+            "Direction:    North",
+            "Distance:     15 mi",
+            "Difficulty:   4",
+            "Sxyth 2087764 -99437 103308 -4000",
+            "------------------------------------------------------------------------",
+            "",
+            "  Use your bombs to destroy a mindbender 15 miles north of the airstrip.",
+            "The bender is protected by forcefield walls and some AA.  Be careful on",
+            "your way out to the mission, there are some scattered enemy forces.",
+            "Engage these if you wish, but your mission objective is the mindbender.",
+            "",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "Mission:      Hanging Fruit",
+            "Direction:    East",
+            "Distance:     13 mi",
+            "Difficulty:   4",
+            "Sxyth 596795 -2206453 300000 -32768",
+            "------------------------------------------------------------------------",
+            "",
+            " At 15,000 feet, a generator orb is providing the power for several ",
+            "KLA and AA sites.  Take out the orb, but keep an eye out for enemy",
+            "defenses.  Remember that your plane will not handle as well at higher",
+            "altitudes.  Intelligence reports topnotch AA mounted precariously above",
+            "the orb's inverted platform.",
+            " Take out the generator and get out of there, or else be ready to mix",
+            "it up with the KLA.  Taking out the remaining KLA sites is optional.",
+            "Don't forget to use your emergency rocket booster to rocket home if you",
+            "need to outrun some enemy deathballs!",
+            "",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "Mission:      The Golden Path",
+            "Direction:    South",
+            "Distance:     9 mi",
+            "Difficulty:   4",
+            "Sxyth -1998440 -60304 62037 -27000",
+            "------------------------------------------------------------------------",
+            "",
+            "  To the south lies a fuel dump facility arrange in a line.  This setup",
+            "is just begging for an air attack!  Blow all those fuel tanks to ",
+            "kingdom come.",
+            "",
+            "------------------------------------------------------------------------",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Mission:      The Halls of Malevolence",
+            "Direction:    West",
+            "Distance:     12 mi",
+            "Difficulty:   5",
+            "Sxyth 176300 1428960 185161 19000",
+            "------------------------------------------------------------------------",
+            "",
+            "  The aliens have quite a nice setup out to the west of our postion.",
+            "The orders from the brass are to go out there and help them redecorate.",
+            "Take out the orb to bring the walls down, then get the heck out of",
+            "there if the defenses are still up.",
+            "  It is a long haul back to the airstrip from there, so you might want",
+            "to stick around and take out those topnotch KLA sites which will",
+            "popup during your attack.  Otherwise you may be playing tag with ace",
+            "deathballs all the way home.",
+            "",
+            "------------------------------------------------------------------------",
+            ""
+          ],
+          "shortcuts": [
+            {
+              "name": null,
+              "marker_line": 8,
+              "text": "Sxyth 2087764 -99437 103308 -4000",
+              "start_xyz_yaw": [
+                2087764,
+                -99437,
+                103308,
+                -4000
+              ]
+            },
+            {
+              "name": null,
+              "marker_line": 24,
+              "text": "Sxyth 596795 -2206453 300000 -32768",
+              "start_xyz_yaw": [
+                596795,
+                -2206453,
+                300000,
+                -32768
+              ]
+            },
+            {
+              "name": null,
+              "marker_line": 45,
+              "text": "Sxyth -1998440 -60304 62037 -27000",
+              "start_xyz_yaw": [
+                -1998440,
+                -60304,
+                62037,
+                -27000
+              ]
+            },
+            {
+              "name": null,
+              "marker_line": 63,
+              "text": "Sxyth 176300 1428960 185161 19000",
+              "start_xyz_yaw": [
+                176300,
+                1428960,
+                185161,
+                19000
+              ]
+            }
+          ]
+        },
+        {
+          "section": 6,
+          "tower_index": 5,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 7,
+          "tower_index": 6,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 8,
+          "tower_index": 7,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 9,
+          "tower_index": 8,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 10,
+          "tower_index": 9,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        }
+      ]
+    },
+    {
+      "filename": "WHTSANDS.TWR",
+      "sha256": "219e260c46c6b220163b0a5d38808556e7be94476d84b7558ca0e4495f085aa7",
+      "sections": [
+        {
+          "section": 0,
+          "tower_index": null,
+          "lines": [
+            "White Sands Testing Ground",
+            "  White Sands is the testing",
+            "grounds for the latest aircraft",
+            "prototypes.  There are no enemies",
+            "in this theater, but there are some",
+            "practice targets.",
+            "  There is an experimental aircraft",
+            "here, but it cannot be flown until",
+            "the pilot is given clearance.",
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 1,
+          "tower_index": 0,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 2,
+          "tower_index": 1,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 3,
+          "tower_index": 2,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 4,
+          "tower_index": 3,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 5,
+          "tower_index": 4,
+          "lines": [
+            "------------------------------------------------------------------------",
+            "------------- Welcome to the White Sands testing grounds ---------------",
+            "------------------------------------------------------------------------",
+            "",
+            "  The experimental aircraft waiting at the strip is scheduled for a",
+            "high altitude run.  The test pilot is to hit the large button marked",
+            "<enter> when he or she attains the maximum possible altitude.  It is",
+            "recommended that the plane be above 60,000 feet before engaging the",
+            "apparatus.",
+            "",
+            "  This aircraft is to be flown by Captains with explicit orders.",
+            "",
+            "  There are 6 fake generator orbs set up to the north of here.  Recently",
+            "there has been an accident when a pilot lost control of a test aircraft.",
+            "The wreckage lies just off the end of the strip.",
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 6,
+          "tower_index": 5,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 7,
+          "tower_index": 6,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 8,
+          "tower_index": 7,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 9,
+          "tower_index": 8,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        },
+        {
+          "section": 10,
+          "tower_index": 9,
+          "lines": [
+            ""
+          ],
+          "shortcuts": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "source": "Original preserved MOAG.EXE shareware3.42; DS file base0x1b9f0",
+  "rank_offset": 598,
+  "ranks": [
+    {
+      "index": 0,
+      "label": "2nd Lieutenant",
+      "moag_ds_offset": 16662,
+      "abbreviation": "2nd Lt."
+    },
+    {
+      "index": 1,
+      "label": "1st Lieutenant",
+      "moag_ds_offset": 16685,
+      "abbreviation": "1st Lt."
+    },
+    {
+      "index": 2,
+      "label": "Captain",
+      "moag_ds_offset": 16708,
+      "abbreviation": "Capt."
+    },
+    {
+      "index": 3,
+      "label": "Major",
+      "moag_ds_offset": 16722,
+      "abbreviation": "Maj."
+    },
+    {
+      "index": 4,
+      "label": "Lt. Colonel",
+      "moag_ds_offset": 16733,
+      "abbreviation": "Lt. Col."
+    },
+    {
+      "index": 5,
+      "label": "Colonel",
+      "moag_ds_offset": 16737,
+      "abbreviation": "Col."
+    },
+    {
+      "index": 6,
+      "label": "General",
+      "moag_ds_offset": 16754,
+      "abbreviation": "Gen."
+    }
+  ],
+  "medal_offset": 599,
+  "medals": [
+    {
+      "index": 0,
+      "label": "Purple Heart",
+      "moag_ds_offset": 16767
+    },
+    {
+      "index": 1,
+      "label": "Bronze Star",
+      "moag_ds_offset": 16818
+    },
+    {
+      "index": 2,
+      "label": "Silver Star",
+      "moag_ds_offset": 16870
+    },
+    {
+      "index": 3,
+      "label": "Gold Star",
+      "moag_ds_offset": 16923
+    },
+    {
+      "index": 4,
+      "label": "Distinguished Service Cross",
+      "moag_ds_offset": 16975
+    },
+    {
+      "index": 5,
+      "label": "Service Award",
+      "moag_ds_offset": 17050
+    },
+    {
+      "index": 6,
+      "label": "Stellar Cluster",
+      "moag_ds_offset": 17101
+    },
+    {
+      "index": 7,
+      "label": "Combat Master",
+      "moag_ds_offset": 17174
+    },
+    {
+      "index": 8,
+      "label": "Distinguished Flying Cross",
+      "moag_ds_offset": 17232
+    },
+    {
+      "index": 9,
+      "label": "Theater Combat Medal",
+      "moag_ds_offset": 17309
+    }
+  ],
+  "menu_labels": {
+    "3105": "toggle invulnerable Plane",
+    "3132": "toggle aerodynamic Model",
+    "3158": "toggle inflight Comments",
+    "5811": "modify Wickedness of enemies",
+    "5841": "choose Number of enemies",
+    "5867": "choose Default values",
+    "5890": "toggle invulnerable Plane"
+  },
+  "options_offset": 564,
+  "default_options": [
+    5,
+    6,
+    2,
+    0,
+    0,
+    4,
+    0,
+    2
+  ],
+  "trainee_initial_options": [
+    5,
+    6,
+    2,
+    0,
+    0,
+    4,
+    0,
+    10
+  ],
+  "enemy_settings": [
+    {
+      "field": 0,
+      "label": "Missile",
+      "moag_ds_offset": 6474,
+      "setting": "count",
+      "minimum": 0,
+      "maximum": 25
+    },
+    {
+      "field": 1,
+      "label": "AAA",
+      "moag_ds_offset": 6497,
+      "setting": "count",
+      "minimum": 0,
+      "maximum": 25
+    },
+    {
+      "field": 2,
+      "label": "Ground-Vehicle",
+      "moag_ds_offset": 6482,
+      "setting": "count",
+      "minimum": 0,
+      "maximum": 25
+    },
+    {
+      "field": 3,
+      "label": "Missile",
+      "moag_ds_offset": 6474,
+      "setting": "wickedness",
+      "minimum": 0,
+      "maximum": 8
+    },
+    {
+      "field": 4,
+      "label": "AAA",
+      "moag_ds_offset": 6497,
+      "setting": "wickedness",
+      "minimum": 0,
+      "maximum": 8
+    },
+    {
+      "field": 5,
+      "label": "Ground-Vehicle",
+      "moag_ds_offset": 6482,
+      "setting": "wickedness",
+      "minimum": 0,
+      "maximum": 8
+    }
+  ],
+  "byte7_bits": [
+    {
+      "mask": 1,
+      "meaning": "effective invulnerability used by launch; refreshed from current menu context"
+    },
+    {
+      "mask": 2,
+      "meaning": "training invulnerability preference"
+    },
+    {
+      "mask": 4,
+      "meaning": "training invulnerability explicitly toggled"
+    },
+    {
+      "mask": 8,
+      "meaning": "combat invulnerability preference"
+    },
+    {
+      "mask": 16,
+      "meaning": "combat invulnerability explicitly toggled"
+    },
+    {
+      "mask": 32,
+      "meaning": "Advanced flight model; clear = Beginner"
+    },
+    {
+      "mask": 64,
+      "meaning": "Inflight Comments Off; clear = On"
+    }
+  ],
+  "flight_model_labels": [
+    {
+      "label": "(Beginner)",
+      "moag_ds_offset": 3918
+    },
+    {
+      "label": "(Advanced)",
+      "moag_ds_offset": 3907
+    }
+  ],
+  "comment_labels": [
+    {
+      "label": "(On)",
+      "moag_ds_offset": 3935
+    },
+    {
+      "label": "(Off)",
+      "moag_ds_offset": 3929
+    }
+  ],
+  "option6": {
+    "meanings": [
+      {
+        "label": "base",
+        "moag_ds_offset": 7022
+      },
+      {
+        "label": "action",
+        "moag_ds_offset": 7015
+      }
+    ],
+    "description": "Starting at the base/action; -a argument when nonzero. No callable toggle is present in the shipped Training Missions menu."
+  },
+  "special_aircraft": {
+    "pilot_offset": 606,
+    "meaning": "Combat Master medal count; any nonzero count adds original -f command. No independent special-aircraft menu toggle."
+  },
+  "plane_storage": {
+    "header_offset": 38,
+    "meaning": "Signed planes in storage, separate from per-airfield available planes",
+    "decrement": "Only after accepted sortie commit when requestedExtraPlane was set.",
+    "title": {
+      "label": "No Planes at this Airfield",
+      "moag_ds_offset": 14030
+    },
+    "messages": [
+      {
+        "label": "Warning!  There are no planes available at this airstrip.",
+        "moag_ds_offset": 14057
+      },
+      {
+        "label": "        (However, you have %d plane%s in storage.)",
+        "moag_ds_offset": 14115
+      },
+      {
+        "label": "        Type 'P' to pull a new plane from storage.",
+        "moag_ds_offset": 14166
+      },
+      {
+        "label": "      Type <CR> to continue with the mission anyway.",
+        "moag_ds_offset": 14217
+      },
+      {
+        "label": "                    Type <ESC> to abort.",
+        "moag_ds_offset": 14270
+      },
+      {
+        "label": "       Type almost anything else to select a new tower.",
+        "moag_ds_offset": 14311
+      }
+    ]
+  }
+}

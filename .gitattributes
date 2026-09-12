@@ -1,0 +1,15 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.mjs text eol=lf
+*.bin binary
+*.indices binary
+*.woff binary
+*.scr binary
+*.CCT binary
+*.TWR binary
+*.IMG binary
+*.DEF binary
+*.DMO binary
+*.NDX binary
+*.DOC binary

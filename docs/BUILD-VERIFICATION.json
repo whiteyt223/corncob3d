@@ -1,0 +1,13 @@
+{
+  "date": "2026-09-12",
+  "build": "Fresh source directory, Python 3.12 environment, ziglang 0.16.0; successful complete C++ and audio Wasm compilation",
+  "tests": "npm test passed: bundle, import boundaries, save mutations, four-theater flow and session flows",
+  "independent_build_byte_differences": [],
+  "excluded": "Prior Git history/prototype, music, executables/archives, internal hosting configuration, development research collection and personal files",
+  "public_source_files_before_verification": 334,
+  "github_repository_created": true,
+  "github_actions_run": false,
+  "cloudflare_deployed": false,
+  "powershell_publish_script_executed": false,
+  "publication_note": "Public source upload in progress; GitHub Actions status is recorded by the run itself."
+}

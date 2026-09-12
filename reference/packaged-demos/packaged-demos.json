@@ -1,0 +1,90 @@
+{
+  "format": "original-other-worlds-packaged-demos-v1",
+  "index_file": "DEMO.NDX",
+  "index_sha256": "3b1b800f85b5155ae2d13528a19da77f121da2ab431ec5d69c56ffc85b1f45ae",
+  "moag_sha256": "7dc6b71c77532e79ab5f05a48aa1b42bb57f0b975136102d42b133742b7b11be",
+  "records": [
+    {
+      "name": "Basic Mission",
+      "stem": "demo1",
+      "theater_index": 14,
+      "world_stem": "demo1",
+      "description_offset": 29,
+      "description_lines": [
+        "  Take off from your airstrip, remove",
+        "the AAA threat, then make a bombing run",
+        "against the headquarters orb.",
+        "  Take out some fuel storage tanks, and",
+        "return home will some damage."
+      ],
+      "record_hex": "4261736963204d697373696f6e00000000000000000064656d6f3100000000000e001d000000",
+      "file": "demo1.dmo",
+      "bytes": 20004,
+      "sha256": "9904703d3dbc16754dc0779bd68409c16e86845cc23af81601b8784e3a0c0f22",
+      "world_sha256": "a7e5aafd986fb6be03634aba8f6f46eba90c105907f7c18934f558b26b40f594",
+      "framing": {
+        "records": 2456,
+        "compact": 2445,
+        "expanded": 11,
+        "consumed": 19968,
+        "trailing": 36
+      }
+    },
+    {
+      "name": "Junky Corridor",
+      "stem": "demo5",
+      "theater_index": 14,
+      "world_stem": "demo1",
+      "description_offset": 245,
+      "description_lines": [
+        "Aliens have left their toys laying around",
+        "in the hall again.  Make a try for them,",
+        "but end up in a forced landing."
+      ],
+      "record_hex": "4a756e6b7920436f727269646f72000000000000000064656d6f3500000000000e00f5000000",
+      "file": "demo5.dmo",
+      "bytes": 11767,
+      "sha256": "f5e0dfd3f73d742356e6b8b2f22d67563ecc6cb5e2877ae5ace0b164049b0a95",
+      "world_sha256": "a7e5aafd986fb6be03634aba8f6f46eba90c105907f7c18934f558b26b40f594",
+      "framing": {
+        "records": 1111,
+        "compact": 1013,
+        "expanded": 98,
+        "consumed": 11731,
+        "trailing": 36
+      }
+    },
+    {
+      "name": "Vertical Mission",
+      "stem": "demo6",
+      "theater_index": 14,
+      "world_stem": "demo1",
+      "description_offset": 398,
+      "description_lines": [
+        "Fly down a vertical shaft in a desperate",
+        "and unsuccessful attempt to get through",
+        "all three layers and ram the orb with",
+        "your plane."
+      ],
+      "record_hex": "566572746963616c204d697373696f6e00000000000064656d6f3600000000000e008e010000",
+      "file": "demo6.dmo",
+      "bytes": 13245,
+      "sha256": "8b3a6140973cb20d0faf2f89c89b2dd779e5b8ad9a9b08ebcb72035aeb78b861",
+      "world_sha256": "a7e5aafd986fb6be03634aba8f6f46eba90c105907f7c18934f558b26b40f594",
+      "framing": {
+        "records": 1013,
+        "compact": 837,
+        "expanded": 176,
+        "consumed": 13209,
+        "trailing": 36
+      }
+    }
+  ],
+  "source": {
+    "parser": "MOAG18034..18365, original fgets wrapper190FF and qsort4E94",
+    "launch": "MOAGCC9F..CE02",
+    "return_gate": "MOAG10CC3..10D0C",
+    "keys": "MOAGC853..C952/C992",
+    "flags": "3.EXE DCB0/DC9B/DCA9/DC59"
+  }
+}
