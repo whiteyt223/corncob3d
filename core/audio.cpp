@@ -58,7 +58,9 @@ const uint8_t* built_in(Preset p){switch(p){
  case Preset::saucer:return saucer;case Preset::orb:return orb;case Preset::kla:return kla;}return engine_table;}
 void preset(Preset p){uint8_t index=uint8_t(p);table((editor_mask&(uint16_t(1)<<index))?editor_tables[index]:built_in(p));}
 void voice_on(uint8_t voice,uint16_t ax){write(uint8_t(0xa0+voice),uint8_t(ax));write(uint8_t(0xb0+voice),uint8_t(((ax>>8)<<2)|0x21));}
-void voice_off(uint8_t voice,uint16_t ax){write(uint8_t(0xb0+voice),uint8_t(((ax>>8)<<2)|1));}
+// ADL.ASM voiceoff explicitly clears KEY-ON after packing AH. Callers such
+// as Other Worlds' screech timeout pass elapsed ticks, not just pitch bits.
+void voice_off(uint8_t voice,uint16_t ax){write(uint8_t(0xb0+voice),uint8_t((((ax>>8)<<2)|1)&0xdf));}
 void init_voices(){preset(Preset::snare);preset(Preset::gun);preset(Preset::boom);write(0xb6,1);write(0x50,0);write(0x53,0);preset(Preset::engine);preset(Preset::screech);preset(Preset::stall);preset(Preset::kla);}
 void snare_sound(bool wind_active){if(!wind_active){write(0xbd,0x20);write(0xbd,0x28);}}
 void big_boom(){write(0xbd,0x20);write(0xbd,0x30);}
